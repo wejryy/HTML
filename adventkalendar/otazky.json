@@ -1,0 +1,172 @@
+{
+    "otazky": [
+        {
+            "id": 1,
+            "otazka": "Která planeta ve sluneční soustavě je nejblíže Slunci?",
+            "odpoved": "Merkur",
+            "stav": "1",
+            "darek": "Gumový medvídek"
+        },
+        {
+            "id": 2,
+            "otazka": "Kolik kontinentů existuje na Zemi?",
+            "odpoved": "Sedm",
+            "stav": "0",
+            "darek": "Knížka"
+        },
+        {
+            "id": 3,
+            "otazka": "Jak se jmenuje nejvyšší hora světa?",
+            "odpoved": "Everest",
+            "stav": "0",
+            "darek": "Pytel brambor"
+        },
+        {
+            "id": 4,
+            "otazka": "Jaké je hlavní město Francie?",
+            "odpoved": "Paříž",
+            "stav": "0",
+            "darek": "Čokoláda"
+        },
+        {
+            "id": 5,
+            "otazka": "Který organický proces rostlin vytváří kyslík jako vedlejší produkt?",
+            "odpoved": "Fotosyntéza",
+            "stav": "0",
+            "darek": "Puzzle"
+        },
+        {
+            "id": 6,
+            "otazka": "Kolik měsíců má jeden kalendářní rok?",
+            "odpoved": "Dvanáct",
+            "stav": "0",
+            "darek": "Ponožky"
+        },
+        {
+            "id": 7,
+            "otazka": "Kdo napsal hru Romeo a Julie?",
+            "odpoved": "Shakespeare",
+            "stav": "0",
+            "darek": "Svíčka"
+        },
+        {
+            "id": 8,
+            "otazka": "Který oceán je největší na světě?",
+            "odpoved": "Tichý",
+            "stav": "0",
+            "darek": "Pralinky"
+        },
+        {
+            "id": 9,
+            "otazka": "Jakou chemickou značku má voda?",
+            "odpoved": "H2O",
+            "stav": "0",
+            "darek": "Samolepka"
+        },
+        {
+            "id": 10,
+            "otazka": "Jaké zvíře je považováno za nejrychlejšího suchozemského savce?",
+            "odpoved": "Gepard",
+            "stav": "0",
+            "darek": "Bonbón"
+        },
+        {
+            "id": 11,
+            "otazka": "Jak se jmenuje nejdelší řeka na světě?",
+            "odpoved": "Amazonka",
+            "stav": "0",
+            "darek": "Sluchátka"
+        },
+        {
+            "id": 12,
+            "otazka": "Co znamená zkratka „USB” v technologii?",
+            "odpoved": "Universal Serial Bus",
+            "stav": "0",
+            "darek": "Hrníček"
+        },
+        {
+            "id": 13,
+            "otazka": "Který stát v USA je největší svou rozlohou?",
+            "odpoved": "Aljaška",
+            "stav": "0",
+            "darek": "Uhlí"
+        },
+        {
+            "id": 14,
+            "otazka": "Který prvek má chemickou značku „O”?",
+            "odpoved": "Kyslík",
+            "stav": "0",
+            "darek": "Gumičky"
+        },
+        {
+            "id": 15,
+            "otazka": "Jak se jmenuje hlavní město Japonska?",
+            "odpoved": "Tokio",
+            "stav": "0",
+            "darek": "Náramek"
+        },
+        {
+            "id": 16,
+            "otazka": "Jaké číslo představuje římská číslice „X”?",
+            "odpoved": "Deset",
+            "stav": "0",
+            "darek": "Hodinky"
+        },
+        {
+            "id": 17,
+            "otazka": "Která barva se v spektru objevuje mezi žlutou a modrou?",
+            "odpoved": "Zelená",
+            "stav": "0",
+            "darek": "Prstýnek"
+        },
+        {
+            "id": 18,
+            "otazka": "Jak se nazývá proces, kdy voda přechází z kapalného do plynného skupenství?",
+            "odpoved": "Vypařování",
+            "stav": "0",
+            "darek": "Baterky"
+        },
+        {
+            "id": 19,
+            "otazka": "Kdo je známý jako „otec moderní fyziky”?",
+            "odpoved": "Galileo",
+            "stav": "0",
+            "darek": "Sešit"
+        },
+        {
+            "id": 20,
+            "otazka": "Kolik prstů mají obvykle lidé na jedné ruce?",
+            "odpoved": "Pět",
+            "stav": "0",
+            "darek": "Voňavka"
+        },
+        {
+            "id": 21,
+            "otazka": "Ve kterém roce přistálo Apollo 11 na Měsíci?",
+            "odpoved": "1969",
+            "stav": "0",
+            "darek": "Lízátko"
+        },
+        {
+            "id": 22,
+            "otazka": "Jaké je hlavní město Austrálie?",
+            "odpoved": "Canberra",
+            "stav": "0",
+            "darek": "Obrázek"
+        },
+        {
+            "id": 23,
+            "otazka": "Který známý vědecký přístroj používá čočky k přiblížení vzdálených objektů?",
+            "odpoved": "Dalekohled",
+            "stav": "0",
+            "darek": "Čelenka"
+        },
+        {
+            "id": 24,
+            "otazka": "Co je opak severního pólu na Zemi?",
+            "odpoved": "Jižní pól",
+            "stav": "0",
+            "darek": "Čepice"
+        }
+    ]
+}
