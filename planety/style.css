@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+.space {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 50px yellow;
+    position: absolute;
+    animation: pulse 3s infinite ease-in-out;
+}
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 50px yellow; }
+    50% { transform: scale(1.1); box-shadow: 0 0 70px yellow; }
+    100% { transform: scale(1); box-shadow: 0 0 50px yellow; }
+}
+.orbit {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+}
+.orbit2 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 9s linear infinite;
+}
+.orbit3 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 14s linear infinite;
+}
+.orbit4 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 12s linear infinite;
+}
+.planet {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, white, black 80%);
+}
+.mercury { background: radial-gradient(circle at 30% 30%, lightgray, black 80%); }
+.venus { background: radial-gradient(circle at 30% 30%, orange, black 80%); }
+.earth { background: radial-gradient(circle at 30% 30%, blue, black 80%); }
+.mars { background: radial-gradient(circle at 30% 30%, red, black 80%); }
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.stars::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    opacity: 0.6;
+}
+    
