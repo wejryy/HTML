@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax</title>
+</head>
+<body>
+    <script>
+    window.onscroll = () => {  
+        const h1 = document.querySelector("header > h1");
+        const p = document.querySelector("header > p");
+        let scrollY = Math.round(window.scrollY);
+        let red = Math.round(255 - scrollY / 4);
+        if (red < 0 ) red = 0;
+        h1.style.transform = `translateY(${scrollY / 2}px)`;
+        h1.style.backroundColor = `rgb(${red}, 220, 170)`;
+        p.style.transform = `translateY(${scrollY / 3}px)`;
+    };
+    </script>
+    
+</body>
+</html>
