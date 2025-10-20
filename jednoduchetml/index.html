@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Jednoduchá stránka</title>
+  <style>
+    .bold {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .italic {
+      font-style: italic;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Jednoduché HTML</h1>
+  <p>
+    <span id="kozak" class="bold">Kozáku</span>, to stačí!
+  </p>
+
+  <script>
+    const kozak = document.getElementById('kozak');
+
+    kozak.addEventListener('mouseenter', () => {
+      kozak.classList.remove('bold');
+      kozak.classList.add('italic');
+    });
+
+    kozak.addEventListener('mouseleave', () => {
+      kozak.classList.remove('italic');
+      kozak.classList.add('bold');
+    });
+  </script>
+
+</body>
+</html>
